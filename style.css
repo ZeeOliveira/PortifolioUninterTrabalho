@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #013220;
+    color: #e5ede5;
+}
+
+
+a{
+    color: #e5ede5;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+    background-color: #012719;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.nome-h{
+    font-family: "Titan One", sans-serif;
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-style: normal;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;;
+    font-weight: 300;
+    background-color: #044e30;
+    height: 6vh;
+    box-shadow: 10px 10px 40px #012719;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list > li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+#container{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+#fotoTitulo{
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    background: #618679;
+    background: radial-gradient(circle, rgba(97, 134, 121, 1) 50%, rgba(1, 50, 32, 1) 120%);
+    justify-content: space-around;
+    width: 1800px;
+    height: 575px;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 10px 10px 40px #012719;
+}
+
+#fotoTitulo > img{
+    width: 40%;
+}
+
+#boxInfos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+    background-color: #308868;
+    width: 400px;
+    height: 230px;
+    box-shadow: 10px 10px 40px #013220;
+
+
+}
+
+#boxInfos:hover{
+    transition: 1s;
+    scale: 1.2;
+}
+
+#boxInfos > h1 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+#boxInfos > h2{
+    font-family: "Montserrat", sans-serif;;
+    font-weight: 300;
+}
+
+#descricao{
+
+    padding: 20px;
+    background-color: #308868;
+    box-shadow: 10px 10px 40px #013220;
+    width: 400px;
+    height: 230px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#descricao:hover{
+    transition: 1s;
+    scale: 1.2;
+}
+
+#descricao > h1 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+#descricao > p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+#projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    background: #044E30;
+    background: radial-gradient(circle, rgba(4, 78, 48, 1) 50%, rgba(1, 50, 32, 1) 120%);
+    box-shadow: 10px 10px 40px #012719;
+
+    gap: 20px;
+    padding: 20px;
+    width: 1760px;
+    height: 575px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+#divprojetos{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#boxP1{
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    font-size: 20px;
+    background-color: #308868;
+    box-shadow: 10px 10px 40px #012719;
+}
+
+#boxP1:hover{
+    transition: 1s;
+    scale: 1.2;
+    box-shadow: 30px 10px 40px #012719;
+}
+
+#boxP1 > h2 {
+    margin-top: 10px;
+    font-family: "Titan One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#boxP1 > img{
+    height: 80%;
+    border-radius: 30px;
+    padding: 20px;
+    
+}
+
+#tituloc2{
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#tituloc2 > h1 {
+    font-family: "Titan One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+#contato{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #618679;
+    background: radial-gradient(circle, rgba(97, 134, 121, 1)50%, rgba(1, 50, 32, 1) 170%);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px #012719;
+}
+
+#contato > h2{
+    font-family: "Titan One", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#container2{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    
+}
+
+#contatotitulo{
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+form {
+    font-family: "Montserrat", sans-serif;
+    width: 200px;
+    font-weight: bold;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form > input , form textarea {
+    width: 100%;
+    background-color: #013220d4;
+    border: 0;
+    color: #e5ede5;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar{
+    margin-top: 40px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    font-family: "Titan One", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+
+    justify-content: center;
+    width: 200px;
+    background-color: #1a9d6d;
+    color: #e5ede5;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 50px;
+    border: 0;
+    box-shadow: 10px 10px 50px #012719;
+
+}
+
+.contatotitulo{
+    font-family: "Titan One", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+#container , #container2 {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@media screen and (max-width: 1020px) {
+    /* NAV BAR*/
+    nav{
+        display: none;
+    }
+
+    #container, #boxZee, #descricao, #boxInfos, #divprojetos, #projetos, #fotoTitulo{
+       display: flex;
+       flex-direction: column; 
+    }
+
+    #boxP1{
+        width: 250px;
+        height: 150px;
+    }
+
+    #boxP1 > h2 {
+    margin-top: 10px;
+    font-family: "Titan One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    }
+
+    #boxP1 > img{
+    height: 60%;
+    border-radius: 30px;
+    padding: 20px;
+    }
+
+    #tituloc2 > h1 {
+    font-family: "Titan One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    }
+
+    #projetos{
+        width: 500px;
+        height: 700;
+        padding: 30px;
+    }
+
+    #fotoTitulo{
+        width: 500px;
+        height: 700;
+        padding: 30px;
+        gap: 0px;
+    }
+
+    #fotoTitulo > img{
+        display: none;
+    }
+
+    #boxInfos{
+        width: 250px;
+        height: 150px;
+        font-size: 10px;
+    }
+
+    #descricao{
+        width: 250px;
+        height: 150px;
+        font-size: 10px;
+    }
+
+    #descricao > h1{
+        font-size: 25px;
+    }
+
+    #boxInfos > h1 {
+        font-size: 25px;
+    }
+
+}
